@@ -55,24 +55,24 @@ int main() {
     struct Person A , B ;
 
     printf( "Person A\n" ) ;
-    printf( "Name : " ) ;
+    printf( "Name : \n" ) ;
     scanf( "%s" , A.Name ) ;
-    printf( "Age : " ) ;
+    printf( "Age : \n" ) ;
     scanf( "%d" , &A.Age ) ;
-    printf( "Sex : " ) ;
+    printf( "Sex : \n" ) ;
     scanf( " %c" , &A.Sex ) ;
-    printf( "Score : " ) ;
+    printf( "Score : \n" ) ;
     scanf( "%f" , &A.Score ) ;
 
 
     printf( "Person B\n" ) ;
-    printf( "Name : " ) ;
+    printf( "Name : \n" ) ;
     scanf( "%s" , B.Name ) ;
-    printf( "Age : " ) ;
+    printf( "Age : \n" ) ;
     scanf( "%d" , &B.Age ) ;
-    printf( "Sex : " ) ;
+    printf( "Sex : \n" ) ;
     scanf( " %c" , &B.Sex ) ;
-    printf( "Score : " ) ;
+    printf( "Score : \n" ) ;
     scanf( "%f" , &B.Score ) ;
 
 
