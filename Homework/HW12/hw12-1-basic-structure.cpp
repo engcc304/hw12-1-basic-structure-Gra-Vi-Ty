@@ -56,35 +56,35 @@ int main() {
 
     printf( "Person A\n" ) ;
     printf( "Name : \n" ) ;
-    scanf( "%s" , A.Name ) ;
+    scanf( "%s", A.Name ) ;
     printf( "Age : \n" ) ;
-    scanf( "%d" , &A.Age ) ;
+    scanf( "%d", &A.Age ) ;
     printf( "Sex : \n" ) ;
-    scanf( " %c" , &A.Sex ) ;
+    scanf( " %c", &A.Sex ) ;
     printf( "Score : \n" ) ;
-    scanf( "%f" , &A.Score ) ;
+    scanf( "%f", &A.Score ) ;
 
 
     printf( "Person B\n" ) ;
     printf( "Name : \n" ) ;
-    scanf( "%s" , B.Name ) ;
+    scanf( "%s", B.Name ) ;
     printf( "Age : \n" ) ;
-    scanf( "%d" , &B.Age ) ;
+    scanf( "%d", &B.Age ) ;
     printf( "Sex : \n" ) ;
-    scanf( " %c" , &B.Sex ) ;
+    scanf( " %c", &B.Sex ) ;
     printf( "Score : \n" ) ;
-    scanf( "%f" , &B.Score ) ;
+    scanf( "%f", &B.Score ) ;
 
 
     printf( "--| Person A Information |--\n" ) ;
-    printf( "Name : %s ( %c )\n" ,A.Name ,&A.Sex) ;
-    printf( "Age : %d years old\n" ,A.Age ) ;
-    printf( "Score : %.2f points\n" , A.Score ) ;
+    printf( "Name : %s ( %c )\n", A.Name, A.Sex) ;
+    printf( "Age : %d years old\n", A.Age ) ;
+    printf( "Score : %.2f points\n",  A.Score ) ;
 
     printf( "--| Person b Information |--\n" ) ;
-    printf( "Name : %s ( %c )\n" ,B.Name ,&B.Sex) ;
-    printf( "Age : %d years old\n" ,B.Age ) ;
-    printf( "Score : %.2f points\n" ,B.Score ) ;
+    printf( "Name : %s ( %c )\n", B.Name, B.Sex) ;
+    printf( "Age : %d years old\n", B.Age ) ;
+    printf( "Score : %.2f points\n", B.Score ) ;
 
     return 0 ;
 }
