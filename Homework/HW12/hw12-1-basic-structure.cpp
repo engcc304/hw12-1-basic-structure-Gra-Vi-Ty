@@ -77,12 +77,12 @@ int main() {
 
 
     printf( "--| Person A Information |--\n" ) ;
-    printf( "Name : %s ( %c )\n", A.Name, A.Sex) ;
+    printf( "Name : %s (%c)\n", A.Name, A.Sex) ;
     printf( "Age : %d years old\n", A.Age ) ;
     printf( "Score : %.2f points\n",  A.Score ) ;
 
     printf( "--| Person b Information |--\n" ) ;
-    printf( "Name : %s ( %c )\n", B.Name, B.Sex) ;
+    printf( "Name : %s (%c)\n", B.Name, B.Sex) ;
     printf( "Age : %d years old\n", B.Age ) ;
     printf( "Score : %.2f points\n", B.Score ) ;
 
