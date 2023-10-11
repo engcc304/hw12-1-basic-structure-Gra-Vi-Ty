@@ -65,7 +65,7 @@ int main() {
     scanf( "%f" , &A.Score ) ;
 
 
-    printf( "Person B" ) ;
+    printf( "Person B\n" ) ;
     printf( "Name : " ) ;
     scanf( "%s" , B.Name ) ;
     printf( "Age : " ) ;
